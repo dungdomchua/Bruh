@@ -1,7 +1,7 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/main.txt"))()
 
 
-local Window = Library:CreateWindow('Văn Thành IOS / Ver_2')
+local Window = Library:CreateWindow('j97 hub / by dungx skidder')
 
 local Tab = {
     Tab_1 = Window:addTab('#Home'),
@@ -22,7 +22,7 @@ local Tab = {
 local Home_Right = Tab.Tab_1:addSection() -- HOME RIGHT SECTION
 local Main_Home = Home_Right:addMenu("#Home")
 
-getgenv().WalkSpeedValue = 26
+getgenv().WalkSpeedValue = 25
 Main_Home:addTextbox("Speed Hack", getgenv().WalkSpeedValue, function(speedfunc)
     getgenv().WalkSpeedValue = speedfunc
     if getgenv().WalkSpeedValue then
