@@ -1,12 +1,7 @@
-local UiMakeLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Msunehub/Uilm/refs/heads/main/UiMat1.lua"))()
-local win = lib.new('Key System')
-win.AddButton('Get Key',function()
-    (setclipboard or toclipboard)('dungx is a skidder);
-end);									win.AddButton('Login',function(a)
-    task.delay(1,function() a.Close(); end);
-    
-    script_key=dungx is a skidder;
-local Window = Library:CreateWindow('j97 hub / by dungx skidder')
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/main.txt"))()
+
+
+local Window = Library:CreateWindow('Văn Thành IOS / Ver_2')
 
 local Tab = {
     Tab_1 = Window:addTab('#Home'),
@@ -27,7 +22,7 @@ local Tab = {
 local Home_Right = Tab.Tab_1:addSection() -- HOME RIGHT SECTION
 local Main_Home = Home_Right:addMenu("#Home")
 
-getgenv().WalkSpeedValue = 25
+getgenv().WalkSpeedValue = 26
 Main_Home:addTextbox("Speed Hack", getgenv().WalkSpeedValue, function(speedfunc)
     getgenv().WalkSpeedValue = speedfunc
     if getgenv().WalkSpeedValue then
